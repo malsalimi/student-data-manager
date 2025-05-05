@@ -1,16 +1,61 @@
-# project_levevl_3
 
-A new Flutter project.
+# 🎓 Student Data Manager
 
-## Getting Started
+تطبيق Flutter شامل لإدارة بيانات الطلاب بسهولة واحترافية، يتضمن تسجيل دخول، إنشاء حساب، إدارة بيانات الطلاب، وواجهات أنيقة.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🖼️ صور من واجهات التطبيق
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🏠 الصفحة الرئيسية
+![Home](screenshots/home.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+### 🔐 صفحة تسجيل الدخول
+![Login](screenshots/login.png)
+
+---
+
+### 📝 صفحة إنشاء حساب
+![Signup](screenshots/signup.png)
+
+---
+
+### 📋 قائمة الطلاب
+![Students List](screenshots/students_list.png)
+
+---
+
+### ➕ إضافة بيانات طالب
+![Add Student](screenshots/add_student.png)
+
+---
+
+### ✏️ تعديل بيانات طالب
+![Edit Student](screenshots/edit_student.png)
+
+---
+
+### 🔍 عرض بيانات طالب
+![View Student](screenshots/view_student.png)
+
+---
+
+## ⚙️ الميزات الرئيسية
+
+- تسجيل دخول آمن وإنشاء حساب جديد.
+- إضافة وتعديل وحذف وعرض بيانات الطلاب.
+- قائمة منظمة لعرض جميع الطلاب.
+- تخزين محلي للبيانات.
+- تصميم واجهات أنيق باستخدام Flutter.
+
+---
+
+## 🚀 التشغيل السريع
+
+لتشغيل المشروع على جهازك المحلي:
+
+```bash
+flutter pub get
+flutter run
